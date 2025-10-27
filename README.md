@@ -1,2 +1,23 @@
-# CV
-My CV built using RMarkdown and the pagedown package. 
+# Mayank Lal — CV (Quarto)
+
+This repository contains a pure **Quarto Markdown** implementation of my resume, inspired by **[Sourabh Bajaj’s LaTeX CV style](https://github.com/sb2nov/resume/tree/master)**.  
+It is **ATS-friendly**, fully editable in Markdown, and renders seamlessly to both **HTML** and **PDF** formats.
+
+## Overview
+
+- Built using [Quarto](https://quarto.org) with minimal dependencies  
+- Styled via custom CSS (`resume.css`) for a clean, professional layout  
+- Automatically renders to both `.html` and `.pdf`  
+- Easily hostable on **GitHub Pages**  
+- Licensed under **MIT License**
+
+## License
+
+This project is released under the [MIT License](LICENSE). The data provided in code and related files are owned by Mayank Lal. 
+You are free to use, modify, and distribute it with attribution.
+
+## Author
+
+**Mayank Lal**  
+✉️ [mayank.p17034@iimtrichy.ac.in](mailto:mayank.p17034@iimtrichy.ac.in)  
+🌐 [linkedin.com/in/mayanklal07](https://linkedin.com/in/mayanklal07)
