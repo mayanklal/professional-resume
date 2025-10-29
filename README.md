@@ -1,4 +1,4 @@
-# Mayank Lal — CV (Quarto)
+# Mayank Lal — Professional Resume (Quarto)
 
 This repository contains a pure **Quarto Markdown** implementation of my resume, inspired by **[Sourabh Bajaj’s LaTeX CV style](https://github.com/sb2nov/resume/tree/master)**.  
 It is **ATS-friendly**, fully editable in Markdown, and renders seamlessly to both **HTML** and **PDF** formats.
