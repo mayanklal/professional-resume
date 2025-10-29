@@ -1,0 +1,91 @@
+% =======================================================
+%  Final preamble – precise Sourabh Bajaj alignment
+% =======================================================
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+
+% === Added smoother font family (Latin Modern) ===
+\usepackage{lmodern} % Added: smoother Computer Modern replacement
+\renewcommand{\rmdefault}{lmr} % Added
+\renewcommand{\sfdefault}{lmss} % Added
+
+% -------------------------------------------------------
+% Page geometry and layout
+% -------------------------------------------------------
+\geometry{letterpaper, top=0.5in, bottom=0.7in, left=0.75in, right=0.75in}
+\RaggedRight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=16pt}
+\pagenumbering{gobble}
+\urlstyle{same}
+
+% -------------------------------------------------------
+% Section formatting (Education, Experience, etc.)
+% -------------------------------------------------------
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large}
+  {}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+\titlespacing{\section}{0pt}{10pt plus 2pt minus 2pt}{6pt}
+
+% -------------------------------------------------------
+% Subsection (Company / Role) formatting
+% -------------------------------------------------------
+\titleformat{\subsection}
+  {\bfseries\normalsize}
+  {}{0pt}{}
+\titlespacing{\subsection}{0pt}{8pt plus 1pt minus 1pt}{4pt}
+
+% Helper macro for company + role + date layout
+% Usage: \companyrole{Company}{Location}{Role}{Dates}
+\newcommand{\companyrole}[4]{%
+  \vspace{3pt}%
+  \noindent\textbf{#1}\hfill\textit{#2}\\[-1pt]%
+  \textit{#3}\hfill\textit{#4}\\[-4pt]%
+}
+
+% -------------------------------------------------------
+% Added: bullet styling (secondary bullet = white circle)
+% -------------------------------------------------------
+\renewcommand{\labelitemi}{\textbullet}   % Added: primary bullet (solid)
+\renewcommand{\labelitemii}{$\circ$}      % Added: secondary bullet (hollow circle)
+
+% -------------------------------------------------------
+% Prevent titlesec errors for unused levels
+% -------------------------------------------------------
+\titleformat{\subsubsection}{\normalsize\bfseries}{}{0pt}{}
+\titleformat{\paragraph}{\normalsize\bfseries}{}{0pt}{}
+\titleformat{\subparagraph}{\normalsize\bfseries}{}{0pt}{}
+
+% -------------------------------------------------------
+% Header / footer and title suppression
+% -------------------------------------------------------
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+
+\makeatletter
+\def\@maketitle{}
+\makeatother
+
+% -------------------------------------------------------
+% Hyperref styling (black links)
+% -------------------------------------------------------
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black
+}

@@ -1,0 +1,85 @@
+---
+title: ""
+author: ""
+format:
+  pdf:
+    pdf-engine: xelatex
+    include-in-header: preamble.tex
+    geometry:
+      - top=0.5in
+      - bottom=0.7in
+      - left=0.75in
+      - right=0.75in
+  html:
+    css: resume.css
+---
+
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}} 
+  \textbf{\Large Mayank Lal} &
+  Email: mayank.pXXXXX@iimtrichy.ac.in\\
+  linkedin.com/in/mayanklal07 &
+  Mobile: +91-9XXXXXXXXX \\
+\end{tabular*}
+
+\vspace{8pt}
+
+\section*{Education}
+
+- \companyrole{Indian Institute of Management}{Tiruchirappalli, India}{Master of Business Administration}{June 2017 – March 2019}
+
+- \companyrole{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science \& Engineering}{August 2010 – April 2014}  
+
+\section*{Work Experience}
+
+- \companyrole{EXL Services (I) Private Limited}{Gurugram, India}{Senior Quantitative Risk Model Developer}{Dec. 2021 – Present}
+
+  - **LGD Recovery Model Redevelopment:** 
+    - Enhanced LGD framework by incorporating payment-based settlement logic to resolve underprediction from -45% to 8%.
+    - Developed empirically derived recovery curve for non-settled accounts with piecewise exponential smoothing to better capture the full recovery lifecycle and post-final write-off recoveries.
+    - Implemented a novel approach to adjust the recovery curve for stress scenarios by incorporating the impact of economic stress on rate of recovery payment to insulate it from regime shifts.
+  - **Climate Risk Stress Testing:** 
+    - Transitioned pilot CRST framework from NGFS-based to MAS-authored climate scenarios, enhancing loss-forecasting alignment with local flood defense systems and property-value depreciation paths. 
+    - Developed stratified sampling methodology for new-booking under constant balance sheet assumption and implemented computational optimizations in peril-path simulation; approved for MAS submission.
+  - **PD Model Benchmark Rate Transition:** 
+    - Implemented benchmark rate transition in mortgage PD model and amortization logic from SIBOR to SORA. 
+    - Re-estimated model coefficients and developed backcasting approach to extend SORA history using correlated SIBOR data, maintaining ROC (0.704) and Gini (0.409); approved for regulatory submission.
+  - **Knowledge Development & Business Enablement:** Contributed to business development initiatives by creating case studies, training materials, and conducting training sessions to establish an in-house functional team for Climate Risk Stress Testing (CRST) projects.
+  - **Awards:** Received *ACE Award* and *Pioneer Award (H1 2024)* for innovation and excellence in credit risk model redevelopment.
+
+- \companyrole{Larsen \& Toubro Limited}{Chennai, India}{Data Scientist}{May 2019 – Dec. 2021}
+
+  - **Project Financial Risk Analytics Platform:** 
+    - Developed ARIMA-based cost forecasting and GAM-based risk classification models using Earned Value Methodology to anticipate cost overruns across large construction projects.
+    - Led integration of model outputs into a Power BI dashboard and automated reporting using R Markdown, enabling proactive project cost monitoring during alpha deployment.  
+  - **Safety Risk Analytics Platform:** 
+    - Applied NLP on safety reports and incident logs from 100+ construction sites to build an analytics ready Safety Database.
+    - Developed RFM-based safety scoring model in collaboration with safety SMEs and built an MVP using R Shiny for interactive visualization and scoring of active projects. 
+    - Advocated adoption of open-source analytical tools across the Analytics CoE to reduce dependency on proprietary software and enable rapid prototyping.
+
+  - **Vendor Risk Intelligence Dashboard:**
+    - Led development of NLP-driven market intelligence platform to monitor operational risk across key vendors.
+    - Built data pipeline to collect daily vendor news via private API, standardized entities using NLP, and applied VADER sentiment model to generate sentiment indices and Power BI dashboards.
+    - Automated reporting of quantified value-at-risk and highlighted at-risk vendors for proactive mitigation using R Markdown.
+
+- \companyrole{Infosys Limited}{Chandigarh, India}{Data Engineer}{May 2014 – Feb. 2017}
+
+  - **Data Engineering & Application Analytics:**
+    - Designed, optimized, and maintained SQL-based data pipelines and reporting modules for manufacturing and telecom analytics systems.
+    - Improved report generation runtime by 90% through query tuning, indexing, and schema optimization in MS SQL Server.  
+  - **Automation & Process Optimization:**
+    - Developed backend automation scripts and deployment utilities that reduced manual data-handling effort and improved system reliability across multiple applications.
+    - Introduced Jenkins as an open-source CI/CD alternative to IBM UrbanCode Deploy, reducing licensing costs.
+
+\section*{Certifications}
+
+- **FRM (Financial Risk Manager)** – Level II Candidate (GARP)
+- **Quantitative Analyst in R** – DataCamp (2025)
+- **Practical Time Series Analysis** – The State University of New York (2021)
+
+\section*{Technical Skills}
+
+- **Modeling & Methods:** PD, LGD, Credit Risk Stress Testing (CRST), Recovery Modeling, Forecasting, GAM, ARIMA, Time Series Analysis, Clustering, NLP  
+- **Programming & Tools:** R, SAS, SQL, Python, Power BI, Git, Automation Scripting, Excel, Powerpoint  
+- **Regulatory Frameworks:** IFRS 9, CECL, CCAR  
+- **Model Lifecycle & Governance:** Model Development, Back-Testing, Benchmarking, Sensitivity Analysis
+  
