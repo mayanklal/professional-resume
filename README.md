@@ -15,9 +15,3 @@ It is **ATS-friendly**, fully editable in Markdown, and renders seamlessly to bo
 
 This project is released under the [MIT License](LICENSE). The data provided in code and related files are owned by Mayank Lal. 
 You are free to use, modify, and distribute it with attribution.
-
-## Author
-
-**Mayank Lal**  
-✉️ [mayank.p17034@iimtrichy.ac.in](mailto:mayank.p17034@iimtrichy.ac.in)  
-🌐 [linkedin.com/in/mayanklal07](https://linkedin.com/in/mayanklal07)
