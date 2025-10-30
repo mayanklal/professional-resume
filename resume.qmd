@@ -29,11 +29,6 @@ format:
 \section*{Summary}
 Quantitative Risk Modeling Lead with 10 years of experience developing PD, LGD, and domain-specific risk models under IFRS9, CECL, and CCAR for $10B+ portfolios. Skilled in applying advanced statistical and machine-learning techniques for end-to-end model development with strong alignment to regulatory expectations.
 
-\section*{Education}
-
-- \companyrole{Indian Institute of Management}{Tiruchirappalli, India}{Master of Business Administration; Major in Finance \& Analytics}{Jun 2017 - Mar 2019}
-
-- \companyrole{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science \& Engineering}{Aug 2010 - Apr 2014}  
 
 \section*{Experience}
 
@@ -56,7 +51,12 @@ Quantitative Risk Modeling Lead with 10 years of experience developing PD, LGD, 
   \companyrole{Infosys Limited}{Chandigarh, India}{Data Engineer}{May 2014 - Feb 2017}
 
   - **Data Engineering & Application Analytics:** Rearchitected SQL-based data pipelines and optimized reporting workflows for 10+ web applications, achieving 90% faster report generation through query tuning, indexing, and schema redesign.
-  - **Automation & Process Optimization:** Created backend automation scripts and deployment utilities that reduced manual data-handling effort by 79% and improved system reliability across multiple applications.
+
+\section*{Education}
+
+- \companyrole{Indian Institute of Management}{Tiruchirappalli, India}{Master of Business Administration; Major in Finance \& Analytics}{Jun 2017 - Mar 2019}
+
+- \companyrole{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science \& Engineering}{Aug 2010 - Apr 2014}
 
 \section*{Certifications}
 
