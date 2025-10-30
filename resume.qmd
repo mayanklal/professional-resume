@@ -1,6 +1,6 @@
 ---
-title: ""
-author: ""
+title: "Mayank Lal – Credit Risk Model Development Resume"
+keywords: [Credit Risk, LGD, PD, ECL, IFRS9, CECL, CCAR, Markov Chain, State Transition Matrix, Logistic Regression, SAS, SQL, R, Stress Testing, Model Validation, Model Development, Transition Modeling, Portfolio Risk Analytics, Climate Risk, Recovery, Time Series Forecasting, NLP, Python]
 format:
   pdf:
     pdf-engine: xelatex
@@ -14,61 +14,49 @@ format:
     css: resume.css
 ---
 
-\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}} 
-  \textbf{\Large Mayank Lal} &
-  Email: mayank.pXXXXX@iimtrichy.ac.in\\
-  linkedin.com/in/mayanklal07 &
-  Mobile: +91-9XXXXXXXXX \\
-\end{tabular*}
+\begin{center}
+    {\LARGE \textbf{Mayank Lal}}\\[3pt]
+    \small
+    +XX-XXXXXXXXXX \,|\, 
+     mayank.p17034@iimtrichy.ac.in \,|\, 
+    linkedin.com/in/mayanklal07 \,|\, 
+    mayanklal.com
+\end{center}
+
 
 \vspace{8pt}
 
+\section*{Summary}
+Quantitative Risk Modeling Lead with 10 years of experience developing PD, LGD, and domain-specific risk models under IFRS9, CECL, and CCAR for $10B+ portfolios. Skilled in applying advanced statistical and machine-learning techniques for end-to-end model development with strong alignment to regulatory expectations.
+
 \section*{Education}
 
-- \companyrole{Indian Institute of Management}{Tiruchirappalli, India}{Master of Business Administration}{June 2017 – March 2019}
+- \companyrole{Indian Institute of Management}{Tiruchirappalli, India}{Master of Business Administration; Major in Finance \& Analytics}{Jun 2017 - Mar 2019}
 
-- \companyrole{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science \& Engineering}{August 2010 – April 2014}  
+- \companyrole{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science \& Engineering}{Aug 2010 - Apr 2014}  
 
-\section*{Work Experience}
+\section*{Experience}
 
-- \companyrole{EXL Services (I) Private Limited}{Gurugram, India}{Senior Quantitative Risk Model Developer}{Dec. 2021 – Present}
+  \companyrole{EXL Services (I) Private Limited}{Gurugram, India}{Senior Quantitative Risk Model Developer}{Dec 2021 - Present}
 
-  - **LGD Recovery Model Redevelopment:** 
-    - Enhanced LGD framework by incorporating payment-based settlement logic to resolve underprediction from -45% to 8%.
-    - Developed empirically derived recovery curve for non-settled accounts with piecewise exponential smoothing to better capture the full recovery lifecycle and post-final write-off recoveries.
-    - Implemented a novel approach to adjust the recovery curve for stress scenarios by incorporating the impact of economic stress on rate of recovery payment to insulate it from regime shifts.
-  - **Climate Risk Stress Testing:** 
-    - Transitioned pilot CRST framework from NGFS-based to MAS-authored climate scenarios, enhancing loss-forecasting alignment with local flood defense systems and property-value depreciation paths. 
-    - Developed stratified sampling methodology for new-booking under constant balance sheet assumption and implemented computational optimizations in peril-path simulation; approved for MAS submission.
-  - **PD Model Benchmark Rate Transition:** 
-    - Implemented benchmark rate transition in mortgage PD model and amortization logic from SIBOR to SORA. 
-    - Re-estimated model coefficients and developed backcasting approach to extend SORA history using correlated SIBOR data, maintaining ROC (0.704) and Gini (0.409); approved for regulatory submission.
-  - **Knowledge Development & Business Enablement:** Contributed to business development initiatives by creating case studies, training materials, and conducting training sessions to establish an in-house functional team for Climate Risk Stress Testing (CRST) projects.
-  - **Awards:** Received *ACE Award* and *Pioneer Award (H1 2024)* for innovation and excellence in credit risk model redevelopment.
+  - **Recovery Model Redevelopment:** Developed recovery model for a $3 billion LATAM-based mortgage portfolio by incorporating payment-based settlement logic to resolve underprediction from -45% to 8%.
+  - **Climate Risk Stress Testing:** Enhanced new-booking sampling methodology in the Climate Risk Stress Testing framework for a $6 billion APAC mortgage portfolio, implementing a stratified sampling approach to maintain portfolio and geographical representativeness under constant balance sheet regulatory assumptions. 
+  - **PD Model Benchmark Rate Transition:** Re-estimated logistic regression coefficients within a Markov Chain–based State Transition Matrix PD model following the benchmark rate change, preserving predictive performance (ROC 70.4%, Gini 41%) in line with MRM performance thresholds.
+  - **Knowledge Development & Business Enablement:** Led business enablement for Climate Risk Stress Testing by developing 5+ case studies and training modules, upskilling 20+ analysts and supporting 3 client portfolio engagements.
+  - **Team Leadership & Project Management:**  Supervised a six-member modeling team delivering 5+ projects under IFRS9, CECL, and CCAR; improved documentation turnaround by 30% and ensured 100% MRM compliance.
+  - **Awards:** Received *ACE Award (2023)* and *Pioneer Award (2024)* for innovation and excellence in credit risk model development.
 
-- \companyrole{Larsen \& Toubro Limited}{Chennai, India}{Data Scientist}{May 2019 – Dec. 2021}
+  \companyrole{Larsen \& Toubro Limited}{Chennai, India}{Data Scientist}{May 2019 - Dec 2021}
 
-  - **Project Financial Risk Analytics Platform:** 
-    - Developed ARIMA-based cost forecasting and GAM-based risk classification models using Earned Value Methodology to anticipate cost overruns across large construction projects.
-    - Led integration of model outputs into a Power BI dashboard and automated reporting using R Markdown, enabling proactive project cost monitoring during alpha deployment.  
-  - **Safety Risk Analytics Platform:** 
-    - Applied NLP on safety reports and incident logs from 100+ construction sites to build an analytics ready Safety Database.
-    - Developed RFM-based safety scoring model in collaboration with safety SMEs and built an MVP using R Shiny for interactive visualization and scoring of active projects. 
-    - Advocated adoption of open-source analytical tools across the Analytics CoE to reduce dependency on proprietary software and enable rapid prototyping.
+  - **Project Financial Risk Analytics Platform:** Designed GAM-based classification model to identify projects at risk of time overrun, achieving ROC of 80% and supporting early intervention and portfolio-level margin protection.
+  - **Safety Risk Analytics Platform:** Collaborated with cross-functional teams to develop a Recency–Frequency–Severity–based Safety Scorecard model, quantifying project-level safety performance across 100+ sites and improving safety compliance by ~20%.
+  - **Vendor Risk Intelligence Dashboard:** Built an end-to-end sentiment analysis model to process daily news for 1,000+ vendors supporting an order book of $72 billion, enabling business teams to identify and mitigate vendor-related operational risks.
+  - **Analytics Adoption Initiatives:** Championed analytics adoption across multiple business units by demonstrating analytics-driven products, earning stakeholder trust, and establishing analytics as a core decision-support capability.
 
-  - **Vendor Risk Intelligence Dashboard:**
-    - Led development of NLP-driven market intelligence platform to monitor operational risk across key vendors.
-    - Built data pipeline to collect daily vendor news via private API, standardized entities using NLP, and applied VADER sentiment model to generate sentiment indices and Power BI dashboards.
-    - Automated reporting of quantified value-at-risk and highlighted at-risk vendors for proactive mitigation using R Markdown.
+  \companyrole{Infosys Limited}{Chandigarh, India}{Data Engineer}{May 2014 - Feb 2017}
 
-- \companyrole{Infosys Limited}{Chandigarh, India}{Data Engineer}{May 2014 – Feb. 2017}
-
-  - **Data Engineering & Application Analytics:**
-    - Designed, optimized, and maintained SQL-based data pipelines and reporting modules for manufacturing and telecom analytics systems.
-    - Improved report generation runtime by 90% through query tuning, indexing, and schema optimization in MS SQL Server.  
-  - **Automation & Process Optimization:**
-    - Developed backend automation scripts and deployment utilities that reduced manual data-handling effort and improved system reliability across multiple applications.
-    - Introduced Jenkins as an open-source CI/CD alternative to IBM UrbanCode Deploy, reducing licensing costs.
+  - **Data Engineering & Application Analytics:** Rearchitected SQL-based data pipelines and optimized reporting workflows for 10+ web applications, achieving 90% faster report generation through query tuning, indexing, and schema redesign.
+  - **Automation & Process Optimization:** Created backend automation scripts and deployment utilities that reduced manual data-handling effort by 79% and improved system reliability across multiple applications.
 
 \section*{Certifications}
 
@@ -76,10 +64,10 @@ format:
 - **Quantitative Analyst in R** – DataCamp (2025)
 - **Practical Time Series Analysis** – The State University of New York (2021)
 
-\section*{Technical Skills}
+\section*{Skills}
 
-- **Modeling & Methods:** PD, LGD, Credit Risk Stress Testing (CRST), Recovery Modeling, Forecasting, GAM, ARIMA, Time Series Analysis, Clustering, NLP  
-- **Programming & Tools:** R, SAS, SQL, Python, Power BI, Git, Automation Scripting, Excel, Powerpoint  
+- **Modeling & Methods:** PD, EAD, LGD, Climate Risk Stress Testing, Forecasting, Statistical Modeling, Machine Learning, Natural Language Processing 
+- **Programming & Tools:** R, SAS, SQL, Python, Git, Bash, Excel, Powerpoint  
 - **Regulatory Frameworks:** IFRS 9, CECL, CCAR  
-- **Model Lifecycle & Governance:** Model Development, Back-Testing, Benchmarking, Sensitivity Analysis
+- **Model Lifecycle & Governance:** Model Development, Back-Testing, Sensitivity Analysis
   
